@@ -3,18 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreshBite Restaurant</title>
+    <title>FreshBite contact</title>
+    <link href="contact.css" rel="stylesheet">
 </head>
 
 
 <body>
-    <header>
-        <nav>
-            
-        </nav>
+
+    <header id="header">
+        <div id="header-container">
+
+           <div id="logo">
+            <img src="images/Logos/logo.png" alt ="logo FreshBite restaurant" class="logo">
+           </div>
+
+           <div class="navbar">
+            <ul id="list-links">
+              <li><a href="home.html">Home</a> </li>
+              <li><a href="Menu.html">Menu</a> </li>
+              <li><a href="gallery.html">Gallery</a> </li>
+              <li><a href="contact.html">Contact us</a> </li>
+            </ul>
+           </div>
+
+         </div>  
+
     </header>
 
-
     
+<h1>Contact FreshBite</h1>
+<p></p>
+
+<div class="contact-form">
+    <fieldset>
+    <!-- <form id="myForm"> -->
+    <div id="input-box">
+        <input id="nameInput" placeholder="Enter your full Name" type="text"></input>
+        <p id ="msgName"></p>
+        <input id="emailInput" placeholder="Enter your email" type="email"></input>
+        <p id="msgEmail"></p>
+        <textarea id="msgInput" placeholder="Enter your message here"></textarea>
+        <p id="msgText"></p>
+        <button id="sendBtn" type="submit">SEND</button>
+        <p id="erreur"></p>
+    </div>
+    <!-- </form>     -->
+    </fieldset>
+</div>
+
+
+
+<h1>Our location</h1>
+<div id="location-box">
+    <div id="location">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3436894.990885063!2d-6.4159178!3d32.730088!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sma!4v1762371042683!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div id="view1"></div>
+    
+</div>
+
+
+<footer class="site-footer">  
+   <div class="main-footer"> 
+     <div class="about">
+        <div class="logo-footer">
+        <img src="images/Logos/logo.png" alt ="logo FreshBite restaurant" id="footer-logo">
+        </div>
+        <p>FreshBite Restaurant — Healthy meals made with love.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     </div>
+
+     <div class="open-time">
+        <h3>We are open</h3>
+        <ul id="time-list">
+          <li><P>Mon-fri:8am-11pm</P></li>
+          <li><P> sun:10am-4pm</P></li>
+          <li><P>sat:10am-6pm</P></li>
+        </ul>
+     </div>
+
+     <div class="contact">
+        <h3>Contact us</h3>
+        <p>123 Main Street, Casablanca</p>
+        <p>Email: info@freshbite.com</p>
+        <p> Phone: +212 6 55 22 22 33</p>
+    
+        <ul class="social-link">
+            <li><a href="#" class="social-link">Instagram</a></li>
+            <li><a href="#" class="social-link">TikTok</a></li>
+            <li><a href="#" class="social-link">Facebook</a></li>
+        </ul>
+     </div>
+
+     <div class="Newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe to get our latest offers</p>
+        <input id="email-footer" placeholder="Your email adress">
+        <button id="subscribe">Subscribe</button>
+     </div>
+
+   </div> 
+   <div id="copyright"><p>© 2025 FreshBite. All rights reserved.</p></div>
+
+   
+
+   </footer>
+
+
+<script src="scripte.js"></script>
+
 </body>
 </html>
+

@@ -1,0 +1,257 @@
+/*===================Contac==========================================================================*/
+
+/* ========== Variables Globales ============ */
+:root {
+  --couleur-primaire: rgba(154, 205, 50, 0.95);;
+  --couleur-secondaire: yellowgreen;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    color: #333;
+    /* background-color: rgba(154, 205, 50, 0.95); */
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)) ,url("images/pic-principal.jpg");
+    background-size: cover;
+    height: 100vh; */
+}
+
+/*=====================-Header=================================================================*/
+#header{
+    background-color: rgba(154, 205, 50, 0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width:100% 
+}
+
+#header-container{
+  display: flex;           
+  gap: 60px;   
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
+   /*width: 100%;
+  max-width: 1200px;*/
+  /*padding: 10px 30px;*/
+  margin: auto;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  padding-right: 6px;
+  
+}
+
+.logo {
+   border-radius: 5px;
+   height: 70px;
+    padding: 2px 2px;
+}
+
+
+
+
+/*-------------------------------------------------------*/
+
+#input-box{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ justify-content:center ;
+ padding: 20px;
+
+} 
+
+.contact-form{
+    text-align: center;
+    box-sizing: border-box;
+    justify-content:center ;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+textarea{
+    height: 100px;
+    border-radius: 8px;
+    padding: 5px 12px;
+}
+
+fieldset{
+  border: black 1px solid;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #9acd32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}  
+
+input{
+  height: 30px;
+  border-radius: 8px;
+  padding: 
+  8px 15px;
+  border: 1px gray solid ;
+}
+
+#location{
+   flex: 1;
+}
+
+#location iframe{
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 12px;
+}  
+
+#location-box{
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#outView{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 50%;
+}
+
+#view1{
+  background: url("images/OutsideFB.jpg");
+  background-size: cover;
+  flex: 1;
+  width: 800px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+/*===========Footer=============================================================================*/
+
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  gap:20px ;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(154, 205, 50, 0.95);
+  padding: 15px;
+  margin-top: 90px;
+
+}
+
+#footer-logo{
+  width: 200px;
+}
+
+#time-list{
+  margin-top: 12px;
+}
+
+.main-footer li{
+  list-style: none;
+}
+
+.contact h3{
+  margin-bottom: 5px;
+}
+
+.contact p{
+  margin-bottom: 3px;
+  font-size: 15px;
+
+}
+
+.social-link a{
+text-decoration: none;
+color: white;
+font-style: oblique;
+font-size: 15px;
+}
+
+.footer{
+    background-color: #222222;
+    color: white;
+    margin-top: 60px;
+}
+
+#subscribe , #email-footer{
+  padding: 6px 6px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+ #email-footer{
+  font-weight: 100;
+  font-size: 14px;
+  background-color: azure;
+ }
+
+ .Newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+ }
+
+ #copyright{
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-weight: 15px ;
+  
+ }
