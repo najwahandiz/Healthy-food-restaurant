@@ -49,7 +49,7 @@ sendBtn.addEventListener("click", function validationForm() {
     
 
     if(isValide){
-        erreur.innerHTML = "Your form submission was successful!";
+        // erreur.innerHTML = "Your form submission was successful!";
         erreur.style.color = "green";
         nameInput.value=""
         emailInput.value=""
